@@ -37,7 +37,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { mnsCadastrar, mnsSobre, mnsSair });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { mnsSobre, mnsSair, mnsCadastrar });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(549, 24);
@@ -56,14 +56,14 @@
             mnsSobre.Name = "mnsSobre";
             mnsSobre.Size = new Size(49, 20);
             mnsSobre.Text = "Sobre";
-            mnsSobre.Click += mnsSobre_Click;
+            
             // 
             // mnsSair
             // 
             mnsSair.Name = "mnsSair";
             mnsSair.Size = new Size(38, 20);
             mnsSair.Text = "Sair";
-            mnsSair.Click += mnsSair_Click;
+            
             // 
             // FormMain
             // 
